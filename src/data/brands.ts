@@ -49,7 +49,7 @@ export const brands: Brand[] = [
     position: "品質・継続利用型",
     positionDetail:
       "価格の安さよりも、日本製モデルや購入後のサポートまで含めて評価したいブランドです。",
-    compareFocus: "価格差・日本製/無料修理・サイズ展開",
+    compareFocus: "価格差・日本製・修理サービスの条件・サイズ展開",
     question: "日本製や購入後のサポートを、価格差として許容できるか。",
     technology: "PHT",
     technologyDetail:

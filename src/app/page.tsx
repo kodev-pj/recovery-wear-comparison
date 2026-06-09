@@ -304,7 +304,7 @@ export default function Home() {
                 <tr>
                   <th scope="row">目立つ特徴</th>
                   <td>寝返りを支えるパターン設計</td>
-                  <td>日本製・無料修理サービス</td>
+                  <td>日本製・修理サービスあり</td>
                   <td>約1mmの薄い生地・全9色</td>
                 </tr>
                 <tr>
@@ -351,6 +351,7 @@ export default function Home() {
           <p className="mt-4 text-xs leading-6 text-[#6e6e73]">
             ※
             表示価格は2026年6月9日時点の各社公式オンラインストア掲載価格（税込）。キャンペーン、在庫、仕様変更は各公式サイトでご確認ください。
+            VENEXの修理サービスは往復送料が利用者負担となり、修理内容によっては対象外となる場合があります。
           </p>
         </div>
       </section>
@@ -406,15 +407,14 @@ export default function Home() {
             <Activity aria-hidden="true" className="text-[#a7a5ff]" size={30} />
             <h2 className="mt-6 text-3xl font-semibold">共通するポイント</h2>
             <p className="mt-5 max-w-md text-sm leading-7 text-white/70">
-              3社の代表商品はいずれも「家庭用遠赤外線血行促進用衣」として届け出された一般医療機器です。
+              3社の代表商品はいずれも「家庭用遠赤外線血行促進用衣」として届け出された一般医療機器です。各社の公式案内で共通して確認できる主な使用目的・効果を掲載しています。
             </p>
           </div>
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="grid gap-3 sm:grid-cols-3">
             {[
               "血行促進",
-              "疲労回復",
-              "筋肉のハリ・コリの緩和",
-              "筋肉の疲労軽減",
+              "疲労の回復",
+              "筋肉のこり等の改善",
             ].map((effect) => (
               <div
                 className="glass-dark-item flex min-h-20 items-center gap-3 px-5 py-4 text-sm font-medium"
@@ -448,6 +448,9 @@ export default function Home() {
               <p className="mt-4 text-sm leading-7 text-[#6e6e73]">
                 本サイトはAI支援を用いて制作した非公式の比較サイトです。現在、広告・アフィリエイトリンクは掲載していません。掲載内容は各社の公式商品ページと技術紹介ページをもとに確認・編集しています。購入前には、最新価格・在庫・注意事項を公式サイトでご確認ください。
               </p>
+              <p className="mt-4 text-sm leading-7 text-[#6e6e73]">
+                利用状況と表示速度の把握のため、Vercel Web AnalyticsとSpeed Insightsを使用しています。Cookieは使用せず、閲覧ページ、参照元、地域、端末・ブラウザ情報、表示性能などの匿名化された集計データがVercelへ送信されます。
+              </p>
             </div>
             <div className="glass-surface divide-y divide-white/60 overflow-hidden">
               {brands.map((brand) => (
@@ -475,7 +478,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 border-t border-white/70 pt-6 text-xs leading-6 text-[#86868b]">
-            本サイトは各ブランドの公式サイトではありません。効果の感じ方には個人差があります。使用中に異常を感じた場合は使用を中止し、必要に応じて医療専門家へご相談することをおすすめします。
+            本サイトは各ブランドの公式サイトではありません。一般医療機器の届出は国による個別製品の承認を意味するものではなく、使用目的・効果や注意事項は製品ごとに異なります。効果の感じ方には個人差があります。使用中に異常を感じた場合は使用を中止し、必要に応じて医療専門家へご相談することをおすすめします。
           </div>
         </div>
       </section>
