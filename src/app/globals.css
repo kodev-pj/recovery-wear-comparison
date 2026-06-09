@@ -152,7 +152,7 @@ body {
 }
 
 .hero-photo {
-  background-image: url("/recovery-hero-ai.png");
+  background-image: url("/recovery-hero-generated-v2.png");
   background-position: center 42%;
   background-size: cover;
 }
@@ -241,12 +241,16 @@ body {
 
   .comparison-table thead th:first-child {
     background: #e9e9ee;
-    box-shadow: 1px 0 0 rgba(112, 112, 126, 0.16);
+    box-shadow:
+      -2px 0 0 #e9e9ee,
+      1px 0 0 rgba(112, 112, 126, 0.16);
     z-index: 3;
   }
 
   .comparison-table tbody th:first-child {
     background: #f2f2f7;
-    box-shadow: 1px 0 0 rgba(112, 112, 126, 0.16);
+    box-shadow:
+      -2px 0 0 #f2f2f7,
+      1px 0 0 rgba(112, 112, 126, 0.16);
   }
 }

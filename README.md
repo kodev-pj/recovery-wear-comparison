@@ -48,4 +48,4 @@ npm run build
 - `src/app/page.tsx`: ページ本体
 - `src/data/brands.ts`: 比較ブランドのデータ
 - `src/app/globals.css`: グローバルスタイル
-- `public/recovery-hero-ai.png`: AI生成のヒーロー画像
+- `public/recovery-hero-generated-v2.png`: AI生成のヒーロー画像

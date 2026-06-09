@@ -245,7 +245,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="glass-surface comparison-scroll mt-10 overflow-x-auto p-1">
+          <div className="glass-surface comparison-scroll mt-10 overflow-x-auto">
             <table className="comparison-table">
               <caption className="sr-only">
                 TENTIAL、VENEX、ReDのリカバリーウェア比較表
@@ -475,7 +475,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 border-t border-white/70 pt-6 text-xs leading-6 text-[#86868b]">
-            本サイトは各ブランドの公式サイトではありません。効果の感じ方には個人差があります。使用中に異常を感じた場合は使用を中止し、必要に応じて医療専門家へご相談ください。
+            本サイトは各ブランドの公式サイトではありません。効果の感じ方には個人差があります。使用中に異常を感じた場合は使用を中止し、必要に応じて医療専門家へご相談することをおすすめします。
           </div>
         </div>
       </section>
