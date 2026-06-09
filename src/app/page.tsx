@@ -54,7 +54,7 @@ export default function Home() {
       number: "03",
       icon: JapaneseYen,
       title: "予算と続け方",
-      body: "上下セットの価格だけでなく、洗い替えや季節違いも考慮。まず単品やインナーから試す方法もあります。",
+      body: "上下セットの価格だけでなく、洗い替えや季節違いも考慮。まず単品やインナーから試す方法も。",
     },
   ];
 
@@ -435,7 +435,7 @@ export default function Home() {
 
       <section id="sources" className="section-ambient px-5 py-16 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <div className="grid gap-10 md:grid-cols-[0.7fr_1.3fr]">
+          <div className="grid gap-10 md:grid-cols-[0.7fr_1.3fr] md:items-start">
             <div>
               <ShieldCheck
                 aria-hidden="true"
