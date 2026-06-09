@@ -4,6 +4,11 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
+const siteUrl = "https://recovery-wear-comparison.vercel.app";
+const title = "リカバリーウェア比較 | TENTIAL・VENEX・ReD";
+const description =
+  "TENTIAL、VENEX、ReDの代表的なリカバリーウェアを、価格・独自素材・サイズ・向いている人でシンプルに比較します。";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,9 +20,37 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "リカバリーウェア比較 | TENTIAL・VENEX・ReD",
-  description:
-    "TENTIAL、VENEX、ReDの代表的なリカバリーウェアを、価格・独自素材・サイズ・向いている人でシンプルに比較します。",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  alternates: {
+    canonical: "/",
+  },
+  verification: {
+    google: "RId-_Hmhfm9FqvPJkYoWPDA7OvYIsIGVJBCCIxxixt8",
+  },
+  openGraph: {
+    type: "website",
+    locale: "ja_JP",
+    url: "/",
+    siteName: "リカバリーウェア比較",
+    title,
+    description,
+    images: [
+      {
+        url: "/recovery-hero-generated-v2.png",
+        width: 1536,
+        height: 1024,
+        alt: "リカバリーウェアを着てくつろぐ人物",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/recovery-hero-generated-v2.png"],
+  },
 };
 
 export default function RootLayout({
