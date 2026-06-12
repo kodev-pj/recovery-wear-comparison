@@ -5,9 +5,10 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const siteUrl = "https://recovery-wear-comparison.vercel.app";
-const title = "リカバリーウェア比較 | TENTIAL・VENEX・ReD";
+const title =
+  "リカバリーウェア3社をシンプル比較｜TENTIAL・VENEX・ReD";
 const description =
-  "TENTIAL、VENEX、ReDの代表的なリカバリーウェアを、価格・独自素材・サイズ・向いている人でシンプルに比較します。";
+  "TENTIAL、VENEX、ReDのリカバリーウェア3社を、価格・一般医療機器区分・独自技術・サイズ・特徴・店舗情報でわかりやすく比較します。";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
